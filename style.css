@@ -1,0 +1,162 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Layout */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+#hero {
+    background-image: url(hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#hero h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    display: inline-block;
+    background-color: #3d43f5;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #3d43f5;
+}
+
+#products ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#products li {
+    flex-basis: calc(33.33% - 1rem);
+    margin-bottom: 2rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+#products li:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#products h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+#products p {
+    margin-bottom: 1rem;
+}
+
+#products img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#contact form input, #contact form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+#contact form button {
+    background-color: #3d43f5;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 3px;
+    margin-bottom: 1rem;
